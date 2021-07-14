@@ -20,3 +20,5 @@ In particular, this mod adds:
 -30 new articles of clothing, armor, webbing and backpacks
 
 -10 new locations
+
+Made on the bf74cc1 version of Bright Nights.
