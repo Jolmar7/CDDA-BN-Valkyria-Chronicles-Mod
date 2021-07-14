@@ -21,4 +21,6 @@ In particular, this mod adds:
 
 -10 new locations
 
+-14 new professions with two new starting locations
+
 Made on the bf74cc1 version of Bright Nights.
