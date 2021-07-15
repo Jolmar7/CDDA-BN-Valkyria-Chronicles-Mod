@@ -3,8 +3,9 @@
     "id": "TALK_VALBAKER_Town",
     "type": "talk_topic",
     "dynamic_line": {
-      "u_female": "Hello, miss. I make the finest food in our little Gallian village, would you mind having some? It's only a small fee.",
-      "u_male": "Hello. I make the finest food in our little Gallian village, would you mind having some? It's only a small fee.?"},
+      "u_female": true,
+      "yes": "Hello, miss. I make the finest food in our little Gallian village, would you mind having some? It's only a small fee.",
+      "no": "Hello. I make the finest food in our little Gallian village, would you mind having some? It's only a small fee.?"},
     "responses": [
       {
         "text": "So you're a baker in this town? What can you tell me about it?",
@@ -25,8 +26,9 @@
     "id": "TALK_VALBAKER_infotown",
     "type": "talk_topic",
     "dynamic_line": {
-      "u_female": "What is there to say really? I cook and bake for the town, anc do some canning on the side to preserve things for the winter. The recent war with the Empire has drastically increased the demand for my goods, but the basic principle remains the same.",
-      "u_male": "What is there to say really? I cook and bake for the town, anc do some canning on the side to preserve things for the winter. The recent war with the Empire has drastically increased the demand for my goods, but the basic principle remains the same."},
+      "u_female": true,
+      "yes": "What is there to say really? I cook and bake for the town, and do some canning on the side to preserve things for the winter. The recent war with the Empire has drastically increased the demand for my goods, but the basic principle remains the same.",
+      "no": "What is there to say really? I cook and bake for the town, and do some canning on the side to preserve things for the winter. The recent war with the Empire has drastically increased the demand for my goods, but the basic principle remains the same."},
     "responses": [
       {
         "text": "Got it.",
@@ -38,8 +40,9 @@
     "id": "TALK_VALGUN_Town",
     "type": "talk_topic",
     "dynamic_line": {
-      "u_female": "Hey there, Missy. I mainly sell guns here, although I sell ammo as well. You never know when you might need a gun during this time of war.",
-      "u_male": "Hello, friend. I mainly sell guns here, although I sell ammo as well. You never know when you might need a gun during this time of war."},
+      "u_female": true,
+      "yes": "Hey there, Missy. I mainly sell guns here, although I sell ammo as well. You never know when you might need a gun during this time of war.",
+      "no": "Hello, friend. I mainly sell guns here, although I sell ammo as well. You never know when you might need a gun during this time of war."},
     "responses": [
       {
         "text": "You sell guns here, what is that like?",
@@ -60,8 +63,9 @@
     "id": "TALK_VALGUN_infotown",
     "type": "talk_topic",
     "dynamic_line": {
-      "u_female": "It's safe to say that business has been booming since the war started. Guns fly off the shelves nearly as fast as I can stock them! I get a lot more respect around here than I used to, people really see how much they need people like me now.",
-      "u_male": "It's safe to say that business has been booming since the war started. Guns fly off the shelves nearly as fast as I can stock them! I get a lot more respect around here than I used to, people really see how much they need people like me now."},
+      "u_female": true,
+      "yes": "It's safe to say that business has been booming since the war started. Guns fly off the shelves nearly as fast as I can stock them! I get a lot more respect around here than I used to, people really see how much they need people like me now.",
+      "no": "It's safe to say that business has been booming since the war started. Guns fly off the shelves nearly as fast as I can stock them! I get a lot more respect around here than I used to, people really see how much they need people like me now."},
     "responses": [
       {
         "text": "Got it.",
@@ -73,8 +77,9 @@
     "id": "TALK_VALDOC_Town",
     "type": "talk_topic",
     "dynamic_line": {
-      "u_female": "Do you want anything from me? I'm a bit busy being at the moment.",
-      "u_male": "Do you want anything from me? I'm a bit busy being at the moment."},
+      "u_female": true,
+      "yes": "Do you want anything from me? I'm a bit busy being at the moment.",
+      "no": "Do you want anything from me? I'm a bit busy being at the moment."},
     "responses": [
       {
         "text": "What is it like being a doctor in this town?",
@@ -99,8 +104,9 @@
     "id": "TALK_VALDOC_infotown",
     "type": "talk_topic",
     "dynamic_line": {
-      "u_female": "I got my medical degree back in Randgriz after years of toil. Suffice it to say, the war shattered my goal for a relatively peaceful career as a doctor. We were quickly pressed into service, and are often worked to the bone mending the wounds of those fighting to defend our homeland.",
-      "u_male": "I got my medical degree back in Randgriz after years of toil. Suffice it to say, the war shattered my goal for a relatively peaceful career as a doctor. We were quickly pressed into service, and are often worked to the bone mending the wounds of those fighting to defend our homeland."},
+      "u_female": true,
+      "yes": "I got my medical degree back in Randgriz after years of toil. Suffice it to say, the war shattered my goal for a relatively peaceful career as a doctor. We were quickly pressed into service, and are often worked to the bone mending the wounds of those fighting to defend our homeland.",
+      "no": "I got my medical degree back in Randgriz after years of toil. Suffice it to say, the war shattered my goal for a relatively peaceful career as a doctor. We were quickly pressed into service, and are often worked to the bone mending the wounds of those fighting to defend our homeland."},
     "responses": [
       {
         "text": "Got it.",
