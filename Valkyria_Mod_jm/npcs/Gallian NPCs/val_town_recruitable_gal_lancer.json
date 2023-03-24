@@ -1,0 +1,34 @@
+[
+  {
+    "type": "npc",
+    "id": "fo_gallian_recruit_lancer",
+    "name_suffix": "Gallian Lancer Recruit",
+    "class": "fo_gallian_recruit_lancer_npc",
+    "attitude": 0,
+    "mission": 8,
+    "chat": "TALK_gallian_recruit_start"
+  },
+  {
+    "type": "npc_class",
+    "id": "fo_gallian_recruit_lancer_npc",
+    "name": { "str": "Gallian Lancer Recruit" },
+    "job_description": "Is a Gallian soldier looking for adventure.",
+    "traits": [ { "group": "Skin_Fair" }, { "group": "Hair_Any" } ],
+    "common": false,
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ -1, 2 ] },
+    "bonus_int": { "rng": [ -1, 2 ] },
+    "bonus_per": { "rng": [ -1, 2 ] },
+    "worn_override": "NC_LANCEW_worn",
+    "carry_override": "NC_LANCE_carry",
+    "weapon_override": "NC_LANCE_weapon",
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "launcher", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 2, 4 ] } }
+    ]
+  }
+]

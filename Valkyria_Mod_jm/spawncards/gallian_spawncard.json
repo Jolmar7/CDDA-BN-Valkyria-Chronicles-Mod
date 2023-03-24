@@ -1,0 +1,63 @@
+[
+    {
+    "type": "npc",
+    "id": "gallian_scoutw_card",
+    "name_suffix": "Gallian scout",
+    "class": "gallian_scoutw_card_npc",
+    "gender": "female",
+    "attitude": 0,
+    "mission": 8,
+    "chat": "TALK_gallian_card_start",
+    "faction": "val_fac_gallia"
+  },
+  {
+    "type": "npc_class",
+    "id": "gallian_scoutw_card_npc",
+    "name": { "str": "Gallian scout" },
+    "job_description": "Protects the town from assailants",
+    "traits": [ { "group": "Skin_Fair" }, { "group": "Hair_Any" } ],
+    "common": false,
+    "bonus_str": { "rng": [ -1, 1 ] },
+    "bonus_dex": { "rng": [ -2, 2 ] },
+    "bonus_int": { "rng": [ -2, 2 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+    "worn_override": "NC_VALSCOUTW_worn",
+    "carry_override": "NC_VALSCOUT_carry",
+    "weapon_override": "NC_VALSCOUT_weapon",
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 3, 6 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 2, 4 ] } }
+    ]
+  },
+  {
+    "type": "TOOL",
+    "category": "other",
+    "id": "val_galliantroopcard",
+    "looks_like": "paper",
+    "name": { "str": "Gallian Requisition Ticket" },
+    "description": "A single-use ticket that deploys a scout of the Gallian Army for the user.",
+    "weight": "1 g",
+    "symbol": "N",
+    "color": "green",
+    "price": 100,
+    "price_postapoc": 0,
+    "material": [ "steel" ],
+    "volume": "1 ml",
+    "max_charges": 0,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "NULL",
+    "use_action": 
+    {
+      "type": "place_npc",
+      "npc_class_id": "gallian_scoutw_card",
+      "summon_msg": "A scout of the Gallian Military appears, as if from nowhere. They are eager to serve!",
+      "place_randomly": false
+    }
+  }
+]

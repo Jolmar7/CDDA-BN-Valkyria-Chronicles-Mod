@@ -1,0 +1,25 @@
+
+[
+  {
+    "id": "TALK_imperial_card_start",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_female": true,
+      "yes": "I shall your commands until my last breath! Glory to the Empire!",
+      "no": "I shall your commands until my last breath! Glory to the Empire!"},
+    "responses": [
+      { "text": "Join me", "topic": "TALK_AGREE_FOLLOW", "effect": "follow", "condition": { "not": "npc_following" } }
+    ]
+  },
+  {
+    "id": "TALK_gallian_card_start",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_female": true,
+      "yes": "Gallian scout, reporting for duty!",
+      "no": "I shall your commands until my last breath! True to Caesar!"},
+    "responses": [
+      { "text": "Want to travel with me?", "topic": "TALK_AGREE_FOLLOW", "effect": "follow", "condition": { "not": "npc_following" } }
+    ]
+  }
+]
